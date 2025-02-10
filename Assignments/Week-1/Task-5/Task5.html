@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars Table and Form</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Table with stars-related content -->
+    <table>
+        <tr>
+            <th>Star Name</th>
+            <th>Distance (Light Years)</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>Sirius</td>
+            <td>8.6</td>
+            <td>Main Sequence</td>
+        </tr>
+        <tr>
+            <td>Betelgeuse</td>
+            <td>642.5</td>
+            <td>Supergiant</td>
+        </tr>
+        <tr>
+            <td>Alpha Centauri</td>
+            <td>4.37</td>
+            <td>Binary System</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Basic form -->
+    <form>
+        <label for="starName">Star Name:</label><br>
+        <input type="text" id="starName" name="starName"><br><br>
+
+        <label for="starType">Star Type:</label><br>
+        <input type="text" id="starType" name="starType"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
